@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -20,12 +21,18 @@ body {
 .countdown-item {
     text-align: center;
     background-color: rgba(19, 18, 18, 0.548);
-    border-radius: 10px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
     margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .countdown-number {
-    font-size: 48px;
+    font-size: 30px;
     font-weight: bold;
     color: #ffffff;
 }
@@ -33,4 +40,10 @@ body {
 .countdown-label {
     font-size: 16px;
     color: #ffffff;
+}
+
+.welcome-message {
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.801);
 }
